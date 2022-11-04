@@ -1,0 +1,45 @@
+.card1{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    background-color: blueviolet;
+}
+.card:active{
+    background-color: brown;
+}
+a{
+    text-align: center;
+}
+a:visited{
+    color: black;
+}
+p:first-child{
+    color: yellow;
+}
+p:nth-child(4n+0){
+    color: red;
+}
+.card3{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px 100px 100px;
+    gap: 10px;
+}
+.first{
+    background-color: aqua;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+.one{
+    grid-column: 1/4;
+}
+.two{
+    grid-column: 1/2;
+}
+.three{
+    grid-column: 3/4;
+}
+.four{
+    grid-column: 1/4;
+}
